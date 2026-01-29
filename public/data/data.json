@@ -1,0 +1,705 @@
+{
+  "success"   : true,
+  "resources" : {
+    "rows" : [
+      {
+        "id"         : 1,
+        "name"       : "Angelo",
+        "eventColor" : "indigo",
+        "barColor"   : "#8F9DEF"
+      },
+      {
+        "id"         : 2,
+        "name"       : "Dave",
+        "eventColor" : "orange",
+        "barColor"   : "#FFC980"
+      },
+      {
+        "id"         : 3,
+        "name"       : "Steve",
+        "eventColor" : "green",
+        "barColor"   : "#A3EEA3"
+      },
+      {
+        "id"         : 4,
+        "name"       : "George",
+        "eventColor" : "blue",
+        "barColor"   : "#A3C4FF"
+      },
+      {
+        "id"         : 5,
+        "name"       : "Kate",
+        "eventColor" : "purple",
+        "barColor"   : "#D9A3FF"
+      },
+      {
+        "id"         : 6,
+        "name"       : "Mark",
+        "eventColor" : "red",
+        "barColor"   : "#FFA3A3"
+      }
+    ]
+  },
+  "events" : {
+    "rows" : [
+      {
+        "id"         : 1,
+        "name"       : "Sprint Planning Meeting",
+        "startDate"  : "2026-06-02T09:00:00",
+        "endDate"    : "2026-06-02T11:00:00",
+        "resourceId" : 1
+      },
+      {
+        "id"         : 2,
+        "name"       : "Code Review",
+        "startDate"  : "2026-06-02T13:00:00",
+        "endDate"    : "2026-06-02T15:00:00",
+        "resourceId" : 2
+      },
+      {
+        "id"         : 3,
+        "name"       : "Client Presentation",
+        "startDate"  : "2026-06-03T10:00:00",
+        "endDate"    : "2026-06-03T12:00:00",
+        "resourceId" : 3
+      },
+      {
+        "id"         : 4,
+        "name"       : "System Testing",
+        "startDate"  : "2026-06-03T14:00:00",
+        "endDate"    : "2026-06-03T17:00:00",
+        "resourceId" : 4
+      },
+      {
+        "id"         : 5,
+        "name"       : "Bug Fixing",
+        "startDate"  : "2026-06-04T09:00:00",
+        "endDate"    : "2026-06-04T18:00:00",
+        "resourceId" : 5
+      },
+      {
+        "id"         : 6,
+        "name"       : "Team Standup",
+        "startDate"  : "2026-06-05T09:30:00",
+        "endDate"    : "2026-06-05T10:00:00",
+        "resourceId" : 6
+      },
+      {
+        "id"         : 7,
+        "name"       : "Documentation",
+        "startDate"  : "2026-06-05T11:00:00",
+        "endDate"    : "2026-06-05T16:00:00",
+        "resourceId" : 1
+      },
+      {
+        "id"         : 8,
+        "name"       : "Release Planning",
+        "startDate"  : "2026-06-06T10:00:00",
+        "endDate"    : "2026-06-06T12:00:00",
+        "resourceId" : 2
+      },
+      {
+        "id"         : 9,
+        "name"       : "User Acceptance Testing",
+        "startDate"  : "2026-06-06T13:00:00",
+        "endDate"    : "2026-06-06T17:00:00",
+        "resourceId" : 3
+      },
+      {
+        "id"         : 10,
+        "name"       : "Product Demo",
+        "startDate"  : "2026-06-09T10:00:00",
+        "endDate"    : "2026-06-09T11:30:00",
+        "resourceId" : 4
+      },
+      {
+        "id"         : 11,
+        "name"       : "Code Refactoring",
+        "startDate"  : "2026-06-09T13:00:00",
+        "endDate"    : "2026-06-09T17:00:00",
+        "resourceId" : 5
+      },
+      {
+        "id"         : 12,
+        "name"       : "Client Feedback Session",
+        "startDate"  : "2026-06-10T09:00:00",
+        "endDate"    : "2026-06-10T10:30:00",
+        "resourceId" : 6
+      },
+      {
+        "id"         : 13,
+        "name"       : "Security Audit",
+        "startDate"  : "2026-06-10T11:00:00",
+        "endDate"    : "2026-06-10T16:00:00",
+        "resourceId" : 1
+      },
+      {
+        "id"         : 14,
+        "name"       : "Code Deployment",
+        "startDate"  : "2026-06-11T09:00:00",
+        "endDate"    : "2026-06-11T11:00:00",
+        "resourceId" : 2
+      },
+      {
+        "id"         : 15,
+        "name"       : "Team Building Activity",
+        "startDate"  : "2026-06-11T13:00:00",
+        "endDate"    : "2026-06-11T17:00:00",
+        "resourceId" : 3
+      },
+      {
+        "id"         : 16,
+        "name"       : "Client Onboarding",
+        "startDate"  : "2026-06-12T10:00:00",
+        "endDate"    : "2026-06-12T12:00:00",
+        "resourceId" : 4
+      },
+      {
+        "id"         : 17,
+        "name"       : "Code Review Session",
+        "startDate"  : "2026-06-12T14:00:00",
+        "endDate"    : "2026-06-12T16:00:00",
+        "resourceId" : 5
+      },
+      {
+        "id"         : 18,
+        "name"       : "Project Retrospective",
+        "startDate"  : "2026-06-13T09:00:00",
+        "endDate"    : "2026-06-13T11:00:00",
+        "resourceId" : 6
+      },
+      {
+        "id"         : 19,
+        "name"       : "Task Prioritization",
+        "startDate"  : "2026-06-13T13:00:00",
+        "endDate"    : "2026-06-13T15:00:00",
+        "resourceId" : 1
+      },
+      {
+        "id"         : 20,
+        "name"       : "Vacation",
+        "startDate"  : "2026-06-16T00:00:00",
+        "endDate"    : "2026-06-20T23:59:59",
+        "resourceId" : 2
+      },
+      {
+        "id"         : 21,
+        "name"       : "API Integration",
+        "startDate"  : "2026-06-16T09:00:00",
+        "endDate"    : "2026-06-16T17:00:00",
+        "resourceId" : 3
+      },
+      {
+        "id"         : 22,
+        "name"       : "Database Optimization",
+        "startDate"  : "2026-06-17T10:00:00",
+        "endDate"    : "2026-06-17T16:00:00",
+        "resourceId" : 4
+      },
+      {
+        "id"         : 23,
+        "name"       : "UI Design Review",
+        "startDate"  : "2026-06-17T13:00:00",
+        "endDate"    : "2026-06-17T15:00:00",
+        "resourceId" : 5
+      },
+      {
+        "id"         : 24,
+        "name"       : "Performance Testing",
+        "startDate"  : "2026-06-18T09:00:00",
+        "endDate"    : "2026-06-18T17:00:00",
+        "resourceId" : 6
+      },
+      {
+        "id"         : 25,
+        "name"       : "Customer Support",
+        "startDate"  : "2026-06-18T10:00:00",
+        "endDate"    : "2026-06-18T12:00:00",
+        "resourceId" : 1
+      },
+      {
+        "id"         : 26,
+        "name"       : "Feature Planning",
+        "startDate"  : "2026-06-19T09:00:00",
+        "endDate"    : "2026-06-19T11:00:00",
+        "resourceId" : 3
+      },
+      {
+        "id"         : 27,
+        "name"       : "Stakeholder Meeting",
+        "startDate"  : "2026-06-19T14:00:00",
+        "endDate"    : "2026-06-19T16:00:00",
+        "resourceId" : 4
+      },
+      {
+        "id"         : 28,
+        "name"       : "Technical Debt Review",
+        "startDate"  : "2026-06-20T10:00:00",
+        "endDate"    : "2026-06-20T12:00:00",
+        "resourceId" : 5
+      },
+      {
+        "id"         : 29,
+        "name"       : "Team Lunch",
+        "startDate"  : "2026-06-20T12:00:00",
+        "endDate"    : "2026-06-20T13:30:00",
+        "resourceId" : 6
+      },
+      {
+        "id"         : 30,
+        "name"       : "Architecture Review",
+        "startDate"  : "2026-06-23T09:00:00",
+        "endDate"    : "2026-06-23T12:00:00",
+        "resourceId" : 1
+      },
+      {
+        "id"         : 31,
+        "name"       : "Vacation",
+        "startDate"  : "2026-06-23T00:00:00",
+        "endDate"    : "2026-06-27T23:59:59",
+        "resourceId" : 2
+      },
+      {
+        "id"         : 32,
+        "name"       : "Frontend Development",
+        "startDate"  : "2026-06-23T13:00:00",
+        "endDate"    : "2026-06-23T17:00:00",
+        "resourceId" : 3
+      },
+      {
+        "id"         : 33,
+        "name"       : "Backend Development",
+        "startDate"  : "2026-06-24T09:00:00",
+        "endDate"    : "2026-06-24T17:00:00",
+        "resourceId" : 4
+      },
+      {
+        "id"         : 34,
+        "name"       : "QA Testing",
+        "startDate"  : "2026-06-24T10:00:00",
+        "endDate"    : "2026-06-24T16:00:00",
+        "resourceId" : 5
+      },
+      {
+        "id"         : 35,
+        "name"       : "DevOps Meeting",
+        "startDate"  : "2026-06-25T09:00:00",
+        "endDate"    : "2026-06-25T10:30:00",
+        "resourceId" : 6
+      },
+      {
+        "id"         : 36,
+        "name"       : "Product Roadmap",
+        "startDate"  : "2026-06-25T11:00:00",
+        "endDate"    : "2026-06-25T13:00:00",
+        "resourceId" : 1
+      },
+      {
+        "id"         : 37,
+        "name"       : "Mobile App Testing",
+        "startDate"  : "2026-06-25T14:00:00",
+        "endDate"    : "2026-06-25T17:00:00",
+        "resourceId" : 3
+      },
+      {
+        "id"         : 38,
+        "name"       : "Accessibility Review",
+        "startDate"  : "2026-06-26T09:00:00",
+        "endDate"    : "2026-06-26T11:00:00",
+        "resourceId" : 4
+      },
+      {
+        "id"         : 39,
+        "name"       : "Localization Testing",
+        "startDate"  : "2026-06-26T13:00:00",
+        "endDate"    : "2026-06-26T15:00:00",
+        "resourceId" : 5
+      },
+      {
+        "id"         : 40,
+        "name"       : "Security Review",
+        "startDate"  : "2026-06-27T10:00:00",
+        "endDate"    : "2026-06-27T12:00:00",
+        "resourceId" : 6
+      },
+      {
+        "id"         : 41,
+        "name"       : "Release Preparation",
+        "startDate"  : "2026-06-27T13:00:00",
+        "endDate"    : "2026-06-27T17:00:00",
+        "resourceId" : 1
+      },
+      {
+        "id"         : 42,
+        "name"       : "Documentation Review",
+        "startDate"  : "2026-06-30T09:00:00",
+        "endDate"    : "2026-06-30T11:00:00",
+        "resourceId" : 3
+      },
+      {
+        "id"         : 43,
+        "name"       : "Final Testing",
+        "startDate"  : "2026-06-30T13:00:00",
+        "endDate"    : "2026-06-30T17:00:00",
+        "resourceId" : 4
+      },
+      {
+        "id"         : 44,
+        "name"       : "Deployment Planning",
+        "startDate"  : "2026-07-01T09:00:00",
+        "endDate"    : "2026-07-01T11:00:00",
+        "resourceId" : 5
+      },
+      {
+        "id"         : 45,
+        "name"       : "Production Deployment",
+        "startDate"  : "2026-07-01T13:00:00",
+        "endDate"    : "2026-07-01T17:00:00",
+        "resourceId" : 6
+      },
+      {
+        "id"         : 46,
+        "name"       : "Post-Release Review",
+        "startDate"  : "2026-07-02T09:00:00",
+        "endDate"    : "2026-07-02T11:00:00",
+        "resourceId" : 1
+      },
+      {
+        "id"         : 47,
+        "name"       : "Customer Feedback Analysis",
+        "startDate"  : "2026-07-02T13:00:00",
+        "endDate"    : "2026-07-02T15:00:00",
+        "resourceId" : 2
+      },
+      {
+        "id"         : 48,
+        "name"       : "Hotfix Implementation",
+        "startDate"  : "2026-06-16T14:00:00",
+        "endDate"    : "2026-06-16T16:00:00",
+        "resourceId" : 6
+      },
+      {
+        "id"         : 49,
+        "name"       : "Marketing Meeting",
+        "startDate"  : "2026-06-19T11:00:00",
+        "endDate"    : "2026-06-19T12:30:00",
+        "resourceId" : 1
+      },
+      {
+        "id"         : 50,
+        "name"       : "Executive Presentation",
+        "startDate"  : "2026-06-30T15:00:00",
+        "endDate"    : "2026-06-30T16:30:00",
+        "resourceId" : 2
+      },
+      {
+        "id"         : 51,
+        "name"       : "Morning Coffee Break",
+        "startDate"  : "2026-06-02T08:00:00",
+        "endDate"    : "2026-06-02T08:30:00",
+        "resourceId" : 1
+      },
+      {
+        "id"         : 52,
+        "name"       : "Email Catch-up",
+        "startDate"  : "2026-06-02T16:00:00",
+        "endDate"    : "2026-06-02T17:00:00",
+        "resourceId" : 1
+      },
+      {
+        "id"         : 53,
+        "name"       : "Breakfast Meeting",
+        "startDate"  : "2026-06-02T08:30:00",
+        "endDate"    : "2026-06-02T09:30:00",
+        "resourceId" : 2
+      },
+      {
+        "id"         : 54,
+        "name"       : "Project Status Update",
+        "startDate"  : "2026-06-02T16:00:00",
+        "endDate"    : "2026-06-02T17:30:00",
+        "resourceId" : 2
+      },
+      {
+        "id"         : 55,
+        "name"       : "Team Huddle",
+        "startDate"  : "2026-06-02T08:30:00",
+        "endDate"    : "2026-06-02T09:00:00",
+        "resourceId" : 3
+      },
+      {
+        "id"         : 56,
+        "name"       : "Code Debugging",
+        "startDate"  : "2026-06-02T14:00:00",
+        "endDate"    : "2026-06-02T16:00:00",
+        "resourceId" : 3
+      },
+      {
+        "id"         : 57,
+        "name"       : "Daily Standup",
+        "startDate"  : "2026-06-02T09:00:00",
+        "endDate"    : "2026-06-02T09:30:00",
+        "resourceId" : 4
+      },
+      {
+        "id"         : 58,
+        "name"       : "Client Call",
+        "startDate"  : "2026-06-02T11:00:00",
+        "endDate"    : "2026-06-02T12:00:00",
+        "resourceId" : 4
+      },
+      {
+        "id"         : 59,
+        "name"       : "Weekly Planning",
+        "startDate"  : "2026-06-02T08:00:00",
+        "endDate"    : "2026-06-02T09:30:00",
+        "resourceId" : 5
+      },
+      {
+        "id"         : 60,
+        "name"       : "Design Review",
+        "startDate"  : "2026-06-02T14:00:00",
+        "endDate"    : "2026-06-02T15:30:00",
+        "resourceId" : 5
+      },
+      {
+        "id"         : 61,
+        "name"       : "Morning Briefing",
+        "startDate"  : "2026-06-02T08:30:00",
+        "endDate"    : "2026-06-02T09:00:00",
+        "resourceId" : 6
+      },
+      {
+        "id"         : 62,
+        "name"       : "Task Assignment",
+        "startDate"  : "2026-06-02T10:00:00",
+        "endDate"    : "2026-06-02T11:00:00",
+        "resourceId" : 6
+      },
+      {
+        "id"         : 63,
+        "name"       : "Quick Sync",
+        "startDate"  : "2026-06-03T08:30:00",
+        "endDate"    : "2026-06-03T09:00:00",
+        "resourceId" : 1
+      },
+      {
+        "id"         : 64,
+        "name"       : "Requirements Gathering",
+        "startDate"  : "2026-06-03T14:00:00",
+        "endDate"    : "2026-06-03T16:00:00",
+        "resourceId" : 1
+      },
+      {
+        "id"         : 65,
+        "name"       : "Morning Review",
+        "startDate"  : "2026-06-03T08:00:00",
+        "endDate"    : "2026-06-03T09:00:00",
+        "resourceId" : 2
+      },
+      {
+        "id"         : 66,
+        "name"       : "Vendor Meeting",
+        "startDate"  : "2026-06-03T15:00:00",
+        "endDate"    : "2026-06-03T16:30:00",
+        "resourceId" : 2
+      },
+      {
+        "id"         : 67,
+        "name"       : "Coffee Break",
+        "startDate"  : "2026-06-03T09:00:00",
+        "endDate"    : "2026-06-03T09:30:00",
+        "resourceId" : 3
+      },
+      {
+        "id"         : 68,
+        "name"       : "Lunch with Team",
+        "startDate"  : "2026-06-03T12:30:00",
+        "endDate"    : "2026-06-03T13:30:00",
+        "resourceId" : 3
+      },
+      {
+        "id"         : 69,
+        "name"       : "Daily Standup",
+        "startDate"  : "2026-06-03T09:00:00",
+        "endDate"    : "2026-06-03T09:30:00",
+        "resourceId" : 4
+      },
+      {
+        "id"         : 70,
+        "name"       : "Lunch Break",
+        "startDate"  : "2026-06-03T12:00:00",
+        "endDate"    : "2026-06-03T13:00:00",
+        "resourceId" : 4
+      },
+      {
+        "id"         : 71,
+        "name"       : "Email Review",
+        "startDate"  : "2026-06-04T08:00:00",
+        "endDate"    : "2026-06-04T08:30:00",
+        "resourceId" : 1
+      },
+      {
+        "id"         : 72,
+        "name"       : "One-on-One Meeting",
+        "startDate"  : "2026-06-04T11:00:00",
+        "endDate"    : "2026-06-04T12:00:00",
+        "resourceId" : 1
+      },
+      {
+        "id"         : 73,
+        "name"       : "Daily Standup",
+        "startDate"  : "2026-06-04T09:00:00",
+        "endDate"    : "2026-06-04T09:30:00",
+        "resourceId" : 2
+      },
+      {
+        "id"         : 74,
+        "name"       : "Project Planning",
+        "startDate"  : "2026-06-04T14:00:00",
+        "endDate"    : "2026-06-04T16:00:00",
+        "resourceId" : 2
+      },
+      {
+        "id"         : 75,
+        "name"       : "Morning Briefing",
+        "startDate"  : "2026-06-04T08:30:00",
+        "endDate"    : "2026-06-04T09:00:00",
+        "resourceId" : 3
+      },
+      {
+        "id"         : 76,
+        "name"       : "Code Review Session",
+        "startDate"  : "2026-06-04T14:00:00",
+        "endDate"    : "2026-06-04T16:00:00",
+        "resourceId" : 3
+      },
+      {
+        "id"         : 77,
+        "name"       : "Daily Standup",
+        "startDate"  : "2026-06-04T09:00:00",
+        "endDate"    : "2026-06-04T09:30:00",
+        "resourceId" : 4
+      },
+      {
+        "id"         : 78,
+        "name"       : "Technical Discussion",
+        "startDate"  : "2026-06-04T15:00:00",
+        "endDate"    : "2026-06-04T16:30:00",
+        "resourceId" : 4
+      },
+      {
+        "id"         : 79,
+        "name"       : "Daily Standup",
+        "startDate"  : "2026-06-05T09:00:00",
+        "endDate"    : "2026-06-05T09:30:00",
+        "resourceId" : 2
+      },
+      {
+        "id"         : 80,
+        "name"       : "Client Meeting",
+        "startDate"  : "2026-06-05T14:00:00",
+        "endDate"    : "2026-06-05T15:30:00",
+        "resourceId" : 2
+      },
+      {
+        "id"         : 81,
+        "name"       : "Morning Check-in",
+        "startDate"  : "2026-06-05T08:30:00",
+        "endDate"    : "2026-06-05T09:00:00",
+        "resourceId" : 3
+      },
+      {
+        "id"         : 82,
+        "name"       : "API Development",
+        "startDate"  : "2026-06-05T13:00:00",
+        "endDate"    : "2026-06-05T17:00:00",
+        "resourceId" : 3
+      },
+      {
+        "id"         : 83,
+        "name"       : "Daily Standup",
+        "startDate"  : "2026-06-05T09:00:00",
+        "endDate"    : "2026-06-05T09:30:00",
+        "resourceId" : 4
+      },
+      {
+        "id"         : 84,
+        "name"       : "Feature Planning",
+        "startDate"  : "2026-06-05T14:00:00",
+        "endDate"    : "2026-06-05T16:00:00",
+        "resourceId" : 4
+      },
+      {
+        "id"         : 85,
+        "name"       : "Daily Standup",
+        "startDate"  : "2026-06-05T09:00:00",
+        "endDate"    : "2026-06-05T09:30:00",
+        "resourceId" : 5
+      },
+      {
+        "id"         : 86,
+        "name"       : "UI/UX Workshop",
+        "startDate"  : "2026-06-05T13:00:00",
+        "endDate"    : "2026-06-05T15:00:00",
+        "resourceId" : 5
+      },
+      {
+        "id"         : 87,
+        "name"       : "Daily Standup",
+        "startDate"  : "2026-06-06T09:00:00",
+        "endDate"    : "2026-06-06T09:30:00",
+        "resourceId" : 1
+      },
+      {
+        "id"         : 88,
+        "name"       : "Weekly Wrap-up",
+        "startDate"  : "2026-06-06T16:00:00",
+        "endDate"    : "2026-06-06T17:00:00",
+        "resourceId" : 1
+      },
+      {
+        "id"         : 89,
+        "name"       : "Team Breakfast",
+        "startDate"  : "2026-06-06T08:00:00",
+        "endDate"    : "2026-06-06T09:00:00",
+        "resourceId" : 4
+      },
+      {
+        "id"         : 90,
+        "name"       : "End of Week Review",
+        "startDate"  : "2026-06-06T16:00:00",
+        "endDate"    : "2026-06-06T17:00:00",
+        "resourceId" : 4
+      },
+      {
+        "id"         : 91,
+        "name"       : "Daily Standup",
+        "startDate"  : "2026-06-06T09:00:00",
+        "endDate"    : "2026-06-06T09:30:00",
+        "resourceId" : 5
+      },
+      {
+        "id"         : 92,
+        "name"       : "Sprint Review",
+        "startDate"  : "2026-06-06T15:00:00",
+        "endDate"    : "2026-06-06T16:30:00",
+        "resourceId" : 5
+      },
+      {
+        "id"         : 93,
+        "name"       : "Daily Standup",
+        "startDate"  : "2026-06-06T09:00:00",
+        "endDate"    : "2026-06-06T09:30:00",
+        "resourceId" : 6
+      },
+      {
+        "id"         : 94,
+        "name"       : "Weekly Report",
+        "startDate"  : "2026-06-06T14:00:00",
+        "endDate"    : "2026-06-06T15:30:00",
+        "resourceId" : 6
+      }
+    ]
+  }
+}

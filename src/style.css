@@ -6,6 +6,10 @@
 /* Bryntum theme of your choice */
 @import "@bryntum/calendar/svalbard-light.css";
 
+body {
+    font-family: "Poppins", sans-serif;
+}
+
 #app {
     margin         : 0;
     display        : flex;
