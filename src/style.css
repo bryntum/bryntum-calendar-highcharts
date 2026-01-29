@@ -1,0 +1,15 @@
+/* FontAwesome is used for icons */
+@import "@bryntum/calendar/fontawesome/css/fontawesome.css";
+@import "@bryntum/calendar/fontawesome/css/solid.css";
+/* Structural CSS */
+@import "@bryntum/calendar/calendar.css";
+/* Bryntum theme of your choice */
+@import "@bryntum/calendar/svalbard-light.css";
+
+#app {
+    margin         : 0;
+    display        : flex;
+    flex-direction : column;
+    height         : 100vh;
+    font-size      : 14px;
+}
