@@ -17,3 +17,42 @@ body {
     height         : 100vh;
     font-size      : 14px;
 }
+
+html, body {
+    --highcharts-background-color : var(--b-neutral-100);
+}
+
+.highcharts-title,
+.b-highcharts-container text {
+    fill: var(--b-neutral-10) !important;
+}
+
+.highcharts-menu {
+    background: var(--b-menu-background) !important;
+    border-radius: var(--b-menu-border-radius) !important;
+}
+
+.highcharts-menu-item {
+    color: var(--b-neutral-10) !important;
+}
+
+.highcharts-menu-item:hover {
+    color: var(--b-neutral-30) !important;
+    background-color: var(--b-primary-80) !important;
+}
+
+.highcharts-exporting-group rect {
+    fill: var(--b-neutral-100) !important;
+}
+
+.highcharts-tooltip > span {
+    color: var(--b-neutral-10) !important;
+}
+
+.highcharts-tooltip-box {
+    fill: var(--b-neutral-100);
+}
+
+.highcharts-background {
+    fill: var(--b-neutral-100) !important;
+}
