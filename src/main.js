@@ -1,5 +1,5 @@
 import { DateHelper, Container, Splitter } from '@bryntum/calendar';
-import Highcharts from 'highcharts';
+import 'highcharts';
 import './lib/HighchartsWidget.js';
 import './style.css';
 

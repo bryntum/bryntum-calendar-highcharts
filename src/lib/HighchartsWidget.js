@@ -6,6 +6,18 @@ import 'highcharts/modules/exporting.js';
 import 'highcharts/modules/export-data.js';
 import 'highcharts/modules/accessibility.js';
 
+// Event handler to ensure font family is inherited for export
+Highcharts.addEvent(Highcharts.Chart, 'init', function(e) {
+    console.log('Highcharts init event', e);
+    if (e.args[0].chart?.forExport) {
+        e.args[0].chart.style = {
+            fontFamily : window.getComputedStyle(
+                document.getElementById('app')
+            ).fontFamily
+        };
+    }
+});
+
 export default class HighchartsWidget extends Widget {
     static $name = 'Chart';
     static type = 'chart';
