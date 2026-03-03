@@ -29,7 +29,7 @@ export default class HighchartsWidget extends Widget {
     compose() {
         return {
             class    : 'b-chart',
-            style    : 'width:100%;height:100%;',
+            style    : 'width:100%;height:100%;overflow:auto;padding: 0px 10px;',
             children : {
                 chartElement : {
                     tag   : 'div',
