@@ -12,6 +12,7 @@
     "vite": "^7.2.4"
   },
   "dependencies": {
+    "@bryntum/calendar-enterprise": "^8.0.1",
     "highcharts": "^12.5.0"
   }
 }

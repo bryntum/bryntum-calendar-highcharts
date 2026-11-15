@@ -1,4 +1,4 @@
-import { Widget } from '@bryntum/calendar';
+import { Widget } from '@bryntum/core-enterprise';
 import Highcharts from 'highcharts';
 
 // Import Highcharts modules as needed

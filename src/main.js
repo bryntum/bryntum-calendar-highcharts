@@ -1,4 +1,5 @@
-import { DateHelper, Container, Splitter } from '@bryntum/calendar';
+import '@bryntum/calendar-enterprise';
+import { DateHelper, Container, Splitter } from '@bryntum/core-enterprise';
 import 'highcharts';
 import './lib/HighchartsWidget.js';
 import './style.css';
@@ -25,7 +26,7 @@ const container = new Container({
             }
         }
     },
-    crudManager : {
+    project : {
         loadUrl       : 'data/data.json',
         autoLoad      : true,
         resourceStore : {
