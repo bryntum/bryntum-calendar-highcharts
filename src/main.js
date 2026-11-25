@@ -1,4 +1,4 @@
-import { Calendar } from '@bryntum/calendar';
+import { Calendar } from '@bryntum/calendar-enterprise';
 import './style.css';
 
 const calendar = new Calendar({

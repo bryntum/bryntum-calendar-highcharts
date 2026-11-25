@@ -27,17 +27,11 @@ npm install highcharts
 
 This project uses **Bryntum Calendar**, which requires a commercial license for production use.
 
-For the trial version:
-
 ```bash
-npm install @bryntum/calendar@npm:@bryntum/calendar-trial
+npm install @bryntum/calendar-enterprise
 ```
 
-For licensed users:
-
-```bash
-npm install @bryntum/calendar
-```
+Bryntum packages are on the public npm registry, so you don't need to log in. The Enterprise tier runs as a fully functional trial for 14 days without a license key. [Request a free trial key](https://bryntum.com/download/) to extend the trial to 45 days. If you have a Bryntum license, add your license key as described in the [licensing guide](https://bryntum.com/docs/guide/Core/licensing).
 
 ## Running the Project
 
