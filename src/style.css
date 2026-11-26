@@ -1,10 +1,10 @@
 /* FontAwesome is used for icons */
-@import "@bryntum/calendar/fontawesome/css/fontawesome.css";
-@import "@bryntum/calendar/fontawesome/css/solid.css";
+@import "@bryntum/core-enterprise/fontawesome/css/fontawesome.css";
+@import "@bryntum/core-enterprise/fontawesome/css/solid.css";
 /* Structural CSS */
-@import "@bryntum/calendar/calendar.css";
+@import "@bryntum/calendar-enterprise/calendar.css";
 /* Bryntum theme of your choice */
-@import "@bryntum/calendar/svalbard-light.css";
+@import "@bryntum/calendar-enterprise/svalbard-light.css";
 
 body {
     font-family: "Poppins", sans-serif;
